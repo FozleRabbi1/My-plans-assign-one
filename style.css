@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 .banner {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(images/banner/banner3.png);
     /* width: 100%; */
     height: 94vh;
     background-size: cover;
@@ -220,7 +220,7 @@ nav ul li a {
 .form .form-content {
     background-color: #1203dd;
     width: 400px;
-    
+
 }
 
 /* ==== posative section end ==== */
