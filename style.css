@@ -178,7 +178,7 @@ nav ul li a {
 
 .posative .posative-content {
     /* background-image:  linear-gradient(to right, #eb01a5, #d13531); */
-    background-image: linear-gradient(to right, rgba(7, 201, 250, 0.6), rgba(157, 210, 245, .1)), url("/images/watch.png");
+    background-image: linear-gradient(to right, rgba(7, 201, 250, 0.6), rgba(157, 210, 245, .1)), url("images/watch.png");
     height: 200px;
     background-repeat: no-repeat;
     border-radius: 10px;
