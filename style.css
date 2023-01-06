@@ -210,7 +210,7 @@ nav ul li a {
 }
 
 .form {
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("images/banner/banner1.png");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
