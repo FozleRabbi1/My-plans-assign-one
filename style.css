@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 nav {
@@ -133,18 +134,69 @@ nav ul li a {
 
 .my-plans {
     color: white;
+    padding-top: 20px;
     padding-bottom: 100px;
+    text-align: center;
 
 }
 
-.my-plans h1 {
+.my-plans .h1 {
     text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: aqua;
 }
 
 .my-plans .plans {
     display: flex;
     justify-content: space-between;
-    background-color: #1203dd;
+    /* background-color: #1203dd; */
 }
 
+.my-plans .plans h1 {
+    margin: 5px 0;
+}
+
+.my-plans .plans .plans-one, .plans-two, .plans-three, .plans-four {
+    /* background-color: #1203dd; */
+    width: 255px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    padding: 10px 0;
+    box-shadow: rgba(4, 229, 245, 0.25) 0px 30px 60px -12px inset, rgba(7, 174, 240, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
 /* ==== my-plans section end ==== */
+
+
+/* ==== posative section end ==== */
+.posative {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.posative .posative-content {
+    /* background-image:  linear-gradient(to right, #eb01a5, #d13531); */
+    background-image: linear-gradient(to right, rgba(7, 201, 250, 0.6), rgba(157, 210, 245, .1)), url("/images/watch.png");
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.posative .posative-content h2{
+    padding: 60px 0 0 50px;
+    width: 300px;
+}
+.posative .posative-content button{
+    margin: 8px 0 0 50px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none; 
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* ==== posative section end ==== */
